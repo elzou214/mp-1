@@ -2,3 +2,59 @@
     width: 70vw;
     margin: 0 auto;
 }
+
+#home-content{
+    display: flex;
+    flex-direction: row;
+    padding: 1vh 1vw;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+#layout{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#home-img{
+    max-width: 100%;
+    
+}
+#profilepic{
+    width: 45%;
+    margin: 0vh 0vw;
+    
+}
+
+main{
+}
+
+#home-intro{
+    width: 60%;
+    margin: 0vh 0vw;
+
+    
+
+}
+
+@media screen and (max-width: 750px){
+
+    #layout{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+
+}
+
