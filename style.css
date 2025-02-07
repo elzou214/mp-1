@@ -1,5 +1,8 @@
 
+*{
+    background-color: rgb(244, 230, 244);
 
+}
 #page{
     width: 70vw;
     margin: 0 auto;
@@ -55,7 +58,7 @@ nav li{
 #home-img{
     width: 50%;
     margin: 0vh 0vw;
-    margin-right: 6vw;
+    margin-right: 4vw;
     
     
     
@@ -65,36 +68,99 @@ nav li{
     max-width: 100%;
     
 }
+header h1, header p {
+    margin: 0;  
+    padding: 1vh 0;  
+}
+header{
+    display: flex;
+    flex-direction: column;
+    
+}
 
 main{
 }
 
 #home-intro{
-    width: 70%;
+    width: 50%;
     margin: 0vh 0vw;
     margin-left: 0px;
-
-
-    
-
+    font-size: calc(2px + 1.5vw);
+    line-height: 1.5;
+    text-align: justify;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 1vh 2vw; 
 }
 
 footer{
     text-align: center;
 }
 @media screen and (max-width: 750px){
+    #page{
+        width: 100%;
+    }
+
+    header{
+        align-items: center;
+    }
+
 
     #layout{
         display: flex;
         flex-direction: column;
+        
     
+    }
+    #home-img{
+        width: 50%;
+       
+        
+        
+        
+    }
+
+    #home-intro{
+        width: 95%;
+        font-size: calc(2px + 3vw);
+        
     }
 
     nav ul{
+        padding: 0;
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    
+        
+    }
+    
+    #title{
+        align-items: center;
 
     }
+    nav{
+        padding-right: 0;
+        width: 100%;
+    }
+
+    
+    #home-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    
+
+    nav li{
+        font-size: calc(2px + 2.5vw);
+        padding: 2% 1%;
+        
+    }
+    
 
 
 }
