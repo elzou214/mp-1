@@ -63,14 +63,14 @@ function muti(){
 
     let output = first * second;
 
-    document.getElementById("output").innerHTML = `<h3>${output}</h3>`
+    document.getElementById("output").innerHTML = `<h3>    ${output}    </h3>`
 
 }
 
 function clearA(){
     document.getElementById("first").value = '';
     document.getElementById("second").value = '';
-    document.getElementById("output").innerHTML = ``;
+    document.getElementById("output").innerHTML = `<h3 style="color: transparent;"> hold</h3>`;
 }
 
 

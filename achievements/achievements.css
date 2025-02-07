@@ -1,0 +1,129 @@
+
+*{
+    background-color: rgb(244, 230, 244);
+
+}
+#page{
+    width: 70vw;
+    margin: 0 auto;
+}
+
+
+
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    align-items: center;
+    border: 0.15vw solid rgb(205, 195, 195);
+    
+    
+}
+nav a {
+    text-decoration: none;
+}
+
+nav{
+    padding-right: 5vw;
+}
+
+
+
+
+nav li{
+    width: 90%;
+    padding: 2vh 0;
+    font-size: calc(3px + 2vw);
+}
+
+#layout{
+    display: flex;
+    flex-direction: row;
+    border: 0.15vw solid rgb(205, 195, 195);
+    padding: 2vh 2vw;
+
+}
+
+
+
+
+
+header h1, header p {
+    margin: 0;  
+    padding: 1vh 0;  
+}
+header{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+main{
+}
+
+
+
+footer{
+    text-align: center;
+}
+@media screen and (max-width: 750px){
+    #page{
+        width: 100%;
+    }
+
+    header{
+        align-items: center;
+    }
+
+
+    #layout{
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    
+
+   
+
+    nav ul{
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    
+        
+    }
+    
+    #title{
+        align-items: center;
+
+    }
+    nav{
+        padding-right: 0;
+        width: 100%;
+    }
+
+    
+  
+
+    
+
+    nav li{
+        font-size: calc(2px + 2.5vw);
+        padding: 2% 1%;
+        
+    }
+    
+
+
+}
+

@@ -52,6 +52,9 @@ nav li{
 #layout{
     display: flex;
     flex-direction: row;
+    border: 0.15vw solid rgb(205, 195, 195);
+    padding: 2vh 2vw;
+    min-height: 70vh;
 
 }
 
@@ -63,9 +66,13 @@ nav li{
     
     
 }
+
+
 #profilepic{
     
     max-width: 100%;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15); 
+    border: 0.40vw solid rgba(255, 255, 255, 0.8); 
     
 }
 header h1, header p {
@@ -77,6 +84,8 @@ header{
     flex-direction: column;
     
 }
+
+
 
 main{
 }
