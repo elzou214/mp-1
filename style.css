@@ -1,3 +1,5 @@
+
+
 #page{
     width: 70vw;
     margin: 0 auto;
@@ -6,12 +8,42 @@
 #home-content{
     display: flex;
     flex-direction: row;
-    padding: 1vh 1vw;
+    
+    padding: 0vh 0vw;
+
+    
 }
+
+
 
 nav ul{
     display: flex;
     flex-direction: column;
+    width: 15vw;
+    
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    align-items: center;
+    border: 0.15vw solid rgb(205, 195, 195);
+    
+    
+}
+nav a {
+    text-decoration: none;
+}
+
+nav{
+    padding-right: 5vw;
+}
+
+
+
+
+nav li{
+    width: 90%;
+    padding: 2vh 0;
+    font-size: calc(3px + 2vw);
 }
 
 #layout{
@@ -21,12 +53,16 @@ nav ul{
 }
 
 #home-img{
-    max-width: 100%;
+    width: 50%;
+    margin: 0vh 0vw;
+    margin-right: 6vw;
+    
+    
     
 }
 #profilepic{
-    width: 45%;
-    margin: 0vh 0vw;
+    
+    max-width: 100%;
     
 }
 
@@ -34,13 +70,18 @@ main{
 }
 
 #home-intro{
-    width: 60%;
+    width: 70%;
     margin: 0vh 0vw;
+    margin-left: 0px;
+
 
     
 
 }
 
+footer{
+    text-align: center;
+}
 @media screen and (max-width: 750px){
 
     #layout{
