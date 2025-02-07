@@ -8,6 +8,14 @@
     margin: 0 auto;
 }
 
+#home-content{
+    display: flex;
+    flex-direction: row;
+    
+    padding: 0vh 0vw;
+
+    
+}
 
 
 
@@ -46,13 +54,27 @@ nav li{
     flex-direction: row;
     border: 0.15vw solid rgb(205, 195, 195);
     padding: 2vh 2vw;
+    min-height: 70vh;
 
 }
 
+#home-img{
+    width: 50%;
+    margin: 0vh 0vw;
+    margin-right: 4vw;
+    
+    
+    
+}
 
 
-
-
+#profilepic{
+    
+    max-width: 100%;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15); 
+    border: 0.40vw solid rgba(255, 255, 255, 0.8); 
+    
+}
 header h1, header p {
     margin: 0;  
     padding: 1vh 0;  
@@ -64,10 +86,20 @@ header{
 }
 
 
+
 main{
 }
 
-
+#home-intro{
+    width: 50%;
+    margin: 0vh 0vw;
+    margin-left: 0px;
+    font-size: calc(2px + 1.5vw);
+    line-height: 1.5;
+    text-align: justify;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 1vh 2vw; 
+}
 
 footer{
     text-align: center;
@@ -88,9 +120,19 @@ footer{
         
     
     }
-    
+    #home-img{
+        width: 50%;
+       
+        
+        
+        
+    }
 
-   
+    #home-intro{
+        width: 95%;
+        font-size: calc(2px + 3vw);
+        
+    }
 
     nav ul{
         padding: 0;
@@ -113,7 +155,12 @@ footer{
     }
 
     
-  
+    #home-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
 
     
 

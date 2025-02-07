@@ -8,6 +8,14 @@
     margin: 0 auto;
 }
 
+#home-content{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 0vh 0vw;
+
+    
+}
 
 
 
@@ -46,9 +54,9 @@ nav li{
     flex-direction: row;
     border: 0.15vw solid rgb(205, 195, 195);
     padding: 2vh 2vw;
+    min-height: 70vh;
 
 }
-
 
 
 
@@ -62,6 +70,16 @@ header{
     flex-direction: column;
     
 }
+
+#home-content p{
+    border-left: 0.5vh solid rgb(232, 123, 232);
+    padding: 1vh;
+    font-size: calc(2px + 1.5vw);
+    text-align: left;  
+
+   
+}
+
 
 
 main{
@@ -88,8 +106,6 @@ footer{
         
     
     }
-    
-
    
 
     nav ul{
@@ -113,7 +129,11 @@ footer{
     }
 
     
-  
+    #home-content{
+        display: flex;
+        flex-direction: column;
+
+    }
 
     
 
