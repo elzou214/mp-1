@@ -1,12 +1,10 @@
 
-*{
-    background-color: rgb(244, 230, 244);
-
-}
 #page{
     width: 70vw;
+    background-color: rgb(244, 230, 244);
     margin: 0 auto;
 }
+
 
 #home-content{
     display: flex;
@@ -18,7 +16,9 @@
 }
 
 
-
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
 nav ul{
     display: flex;
     flex-direction: column;
@@ -29,6 +29,7 @@ nav ul{
     text-align: center;
     align-items: center;
     border: 0.15vw solid rgb(205, 195, 195);
+    background-color: white;
     
     
 }
@@ -82,12 +83,14 @@ header h1, header p {
 header{
     display: flex;
     flex-direction: column;
+    background-color:#cea8ce;  
     
 }
 
 
 
 main{
+    height: 100vh;
 }
 
 #home-intro{
@@ -103,6 +106,7 @@ main{
 
 footer{
     text-align: center;
+    background-color:#cea8ce;  
 }
 @media screen and (max-width: 750px){
     #page{
@@ -141,6 +145,7 @@ footer{
         justify-content: space-between;
         align-items: center;
         width: 100%;
+        background-color: white;
     
         
     }
@@ -173,4 +178,3 @@ footer{
 
 
 }
-

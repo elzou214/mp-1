@@ -1,10 +1,7 @@
 
-*{
-    background-color: rgb(244, 230, 244);
-
-}
 #page{
     width: 70vw;
+    background-color: rgb(244, 230, 244);
     margin: 0 auto;
 }
 
@@ -26,6 +23,7 @@ nav ul{
     
     list-style: none;
     padding-left: 0;
+    background-color: white;
     text-align: center;
     align-items: center;
     border: 0.15vw solid rgb(205, 195, 195);
@@ -68,6 +66,7 @@ header h1, header p {
 header{
     display: flex;
     flex-direction: column;
+    background-color:#cea8ce;  
     
 }
 
@@ -79,16 +78,21 @@ header{
 
    
 }
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
 
 
 
 main{
+    height: 100vh;
 }
 
 
 
 footer{
     text-align: center;
+    background-color:#cea8ce;  
 }
 @media screen and (max-width: 750px){
     #page{
