@@ -1,7 +1,7 @@
 
 
 
-function pow(){
+function myPow(){
     let first =document.getElementById("first").value;
     let second =document.getElementById("second").value;
     first = Number(first);
@@ -14,11 +14,16 @@ function pow(){
         output = first * output
     }
 
-    document.getElementById("output").innerHTML = `<h3>${output}</h3>`
+    let outputElement = document.getElementById("output");
+    if (output < 0) {
+        outputElement.innerHTML = `<h3 style="color: red;">${output}</h3>`;
+    } else {
+        outputElement.innerHTML = `<h3>${output}</h3>`;
+    }
 
 }
 
-function add(){
+function myAdd(){
     let first =document.getElementById("first").value;
     let second =document.getElementById("second").value;
     first = Number(first);
@@ -26,7 +31,12 @@ function add(){
 
     let output = first + second;
 
-    document.getElementById("output").innerHTML = `<h3>${output}</h3>`
+    let outputElement = document.getElementById("output");
+    if (output < 0) {
+        outputElement.innerHTML = `<h3 style="color: red;">${output}</h3>`;
+    } else {
+        outputElement.innerHTML = `<h3>${output}</h3>`;
+    }
 
 }
 
@@ -39,7 +49,12 @@ function sub(){
 
     let output = first - second;
 
-    document.getElementById("output").innerHTML = `<h3>${output}</h3>`
+    let outputElement = document.getElementById("output");
+    if (output < 0) {
+        outputElement.innerHTML = `<h3 style="color: red;">${output}</h3>`;
+    } else {
+        outputElement.innerHTML = `<h3>${output}</h3>`;
+    }
 
 }
 
@@ -51,7 +66,12 @@ function div(){
 
     let output = first / second;
 
-    document.getElementById("output").innerHTML = `<h3>${output}</h3>`
+    let outputElement = document.getElementById("output");
+    if (output < 0) {
+        outputElement.innerHTML = `<h3 style="color: red;">${output}</h3>`;
+    } else {
+        outputElement.innerHTML = `<h3>${output}</h3>`;
+    }
 
 }
 
@@ -63,7 +83,12 @@ function muti(){
 
     let output = first * second;
 
-    document.getElementById("output").innerHTML = `<h3>    ${output}    </h3>`
+    let outputElement = document.getElementById("output");
+    if (output < 0) {
+        outputElement.innerHTML = `<h3 style="color: red;">${output}</h3>`;
+    } else {
+        outputElement.innerHTML = `<h3>${output}</h3>`;
+    }
 
 }
 

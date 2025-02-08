@@ -96,8 +96,9 @@ header{
    
 }
 #numbers input {
-    height: 5vh;    
+    height: 8vh;    
     text-align: center;
+    font-size: calc(3vh + 1vw);
     
 }
 
@@ -105,10 +106,12 @@ header{
 
 
 #output{
-    margin-top: 1.5vh;
+    margin-top: 5vh;
     border: 0.15vw solid rgb(205, 195, 195);
-    min-width: 8vh;
-    min-height: 0.5vw;
+    min-width: 15vh;
+    min-height: 0.5vh;
+    background-color: white;
+    font-size: calc(1.5vh + 1vw);
 }
 
 
