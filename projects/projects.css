@@ -79,7 +79,7 @@ header{
 #calculator{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 90%;
     justify-content: center; 
     align-items: center;
     text-align: center;
@@ -90,9 +90,9 @@ header{
 
 
 #controls button {
-    font-size: calc(2px + 1.2vw); 
+    font-size: calc(7px + 1.2vw); 
     color: white;
-    padding: 1.5vh 1vw;  
+    padding: 1vh 1.5vw;  
     background-color: #2980B9;  
     border-radius: 1.2vw;
 

@@ -10,11 +10,21 @@
 
 #home-content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
     padding: 0vh 0vw;
 
     
+}
+
+#home-content p{
+    border-left: 0.5vh solid rgb(232, 123, 232);
+    padding: 0.8vh;
+    font-size: calc(2px + 1vh + 1vw);
+    text-align: left;  
+    line-height: 1.4;
+
+   
 }
 
 
@@ -58,23 +68,10 @@ nav li{
 
 }
 
-#home-img{
-    width: 50%;
-    margin: 0vh 0vw;
-    margin-right: 4vw;
-    
-    
-    
-}
 
 
-#profilepic{
-    
-    max-width: 100%;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.15); 
-    border: 0.40vw solid rgba(255, 255, 255, 0.8); 
-    
-}
+
+
 header h1, header p {
     margin: 0;  
     padding: 1vh 0;  
@@ -90,16 +87,6 @@ header{
 main{
 }
 
-#home-intro{
-    width: 50%;
-    margin: 0vh 0vw;
-    margin-left: 0px;
-    font-size: calc(2px + 1.5vw);
-    line-height: 1.5;
-    text-align: justify;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    padding: 1vh 2vw; 
-}
 
 footer{
     text-align: center;
@@ -119,19 +106,6 @@ footer{
         flex-direction: column;
         
     
-    }
-    #home-img{
-        width: 50%;
-       
-        
-        
-        
-    }
-
-    #home-intro{
-        width: 95%;
-        font-size: calc(2px + 3vw);
-        
     }
 
     nav ul{
